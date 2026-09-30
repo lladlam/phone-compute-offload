@@ -1,0 +1,14 @@
+Phone Compute Offload is an original implementation.
+
+It does not contain source code from:
+
+- RAPID (RapidProjectH2020/rapid-android-DemoApp) — no repository license
+- Libdroid (CGCL-codes/Libdroid) — no repository license; FaceDetect sample is GPL-3.0
+- Icecream (icecc/icecream) — GPL-2.0-only
+- LambDa (luckiday/LambDa) — MIT, Copyright (c) 2019 Q_G
+
+Those projects were read for architecture only. Design notes live outside
+this repository, in the author's research directory. LambDa's MIT license
+would allow copying with attribution; the framed transfer used here was
+written from scratch because the original metadata read is not reliable on
+a TCP stream.

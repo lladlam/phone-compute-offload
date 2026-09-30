@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phone-compute-offload"
+version = "0.1.0"
+description = "Explicit computation offloading from a PC to Android workers."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "lladlam" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+pco = "pco.cli:main"
+pco-worker = "pco.worker.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["pco*"]
+
+[tool.setuptools.package-data]
+pco = ["py.typed"]
